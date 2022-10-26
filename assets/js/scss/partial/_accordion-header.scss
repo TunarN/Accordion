@@ -1,0 +1,21 @@
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    background: #1f8d;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1f8d;
+    color: blue;
+    cursor: pointer;
+}
+
+.accordion-header.active{
+background-color: #1f8d;
+}
+
+.accordion-header.active i{
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+}

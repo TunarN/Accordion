@@ -1,0 +1,12 @@
+.accordion-body{
+    padding: 0 1rem;
+    background-color: #f3f3f3;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-body.active{
+    max-height: 10rem;
+    padding: 1rem;
+}
